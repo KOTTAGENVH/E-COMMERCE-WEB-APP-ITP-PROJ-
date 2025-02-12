@@ -3,9 +3,9 @@ const router = require('express').Router();
 require('dotenv').config();
 
 cloudinary.config({
-  cloud_name:  "dvcfip5fe",
-  api_key:  "533411778726318",
-  api_secret:"T8fEINJkTuTgW8YGj4o8Hh8ziyQ"  
+  cloud_name:  "",
+  api_key:  "",
+  api_secret:""  
 })
 
 router.delete('/:public_id', async(req, res)=> {
